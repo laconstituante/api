@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteBase /laconstituante/api/
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^ /laconstituante/api/index.php [QSA,L]
